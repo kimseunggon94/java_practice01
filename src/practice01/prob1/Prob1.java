@@ -5,13 +5,13 @@ public class Prob1 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.println("ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤: ");
 		int number=sc.nextInt();
 		System.out.println(number);
 		if(number%3==0) {
-			System.out.println("3ÀÇ ¹è¼öÀÔ´Ï´Ù.");
+			System.out.println("3ì˜ ë°°ìˆ˜ì…ë‹ˆë‹¤..");
 		}else {
-			System.out.println("3ÀÇ ¹è¼ö°¡ ¾Æ´Õ´Ï´Ù.");
+			System.out.println("3ì˜ ë°°ìˆ˜ê°€ ì•„ë‹™ë‹ˆë‹¤..");
 		}
 	}
 
