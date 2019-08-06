@@ -13,10 +13,10 @@ public class Prob5 {
 				if((dis==3||dis==6||dis==9)&&init==0) {
 					System.out.println();
 					System.out.print(i);
-					System.out.print("¦");
+					System.out.print("짝");
 					init=1;
 				}else if(dis==3||dis==6||dis==9) {
-					System.out.print("¦");
+					System.out.print("짝");
 				}
 				dis=quo;
 			}
